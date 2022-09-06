@@ -1,0 +1,65 @@
+/* Работа с товаром */
+
+.tovar {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.photo_tovar {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    cursor: pointer; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.photo_tovar .img_tovar {
+    transition: 1s;
+    display: block;
+}
+
+.photo_tovar:hover .img_tovar {
+    transform: scale(1.2);
+    opacity: 0.4;
+}
+
+.photo_tovar:hover .photo_tovar_button {
+    visibility: visible;
+}
+
+.photo_tovar_button {
+    visibility: hidden;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 20;
+    white-space: nowrap;
+}
+
+/* описание + цена */
+.tovar_photo_price {
+    cursor: pointer;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.firm {
+    font-size: 90%;
+    margin-top: -2%;
+}
+
+.designation {
+    font-size: 90%;
+    margin-top: -2%;
+}
+
+
+
+
