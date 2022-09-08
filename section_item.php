@@ -4,8 +4,10 @@
 <div class="row">
     <div class="col-xl-3 col-md-4 col-sm-6 tovar">
         <div class="photo_tovar">
-            <img class="img_tovar" src="img/product/asf.jpeg" alt="mdo"  width="100%" style="text-align: center;">
-            <button class="btn btn-outline-dark photo_tovar_button">Быстрый просмотр</button>
+            <a href="product_view.php">
+                <img class="img_tovar" src="img/product/asf.jpeg" alt="mdo" width="100%" style="text-align: center;">
+                <button class="btn btn-outline-dark photo_tovar_button" href="product_view.php">Быстрый просмотр</button>
+            </a>
         </div>
         <div class="tovar_photo_price">
             <div class="price">2 299 ₽</div>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $title;?></title>
+    <title><?php echo $title; ?></title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
@@ -39,6 +39,10 @@
                     <div class="dropdown text-end mr-5">
                         <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="img/shop/user.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                            <span class="position-absolute top-0 start-80 translate-middle badge rounded-pill bg-danger">
+                                100
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
                         </a>
                         <ul class="dropdown-menu text-small">
                             <li><a class="dropdown-item" href="#">Корзина</a></li>

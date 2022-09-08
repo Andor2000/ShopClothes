@@ -6,16 +6,28 @@ $title = 'Просмотр товара';
 <?php include("header.php"); ?>
 
 <div class="row featurette">
-    <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-        </svg>
-
+    <div class="col-md-1"></div>
+    <div class="col-md-4 col-sm-12">
+        <img class="img_tovar" src="img/product/asa.jpg" alt="mdo" width="100%">
     </div>
-    <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+    <div class="col-md-6 col-sm-12">
+        <h2 class="featurette-heading fw-normal lh-1">Zara</h2>
+        <p class="lead">Штанишки синие</p>
+        <div class="d-flex ml-5">
+            <img class="img_tovar_variant me-2 " src="img/product/asa.jpg" alt="mdo" width="15%">
+            <img class="img_tovar_variant me-2 " src="img/product/asf.jpeg" alt="mdo" width="15%">
+            <img class="img_tovar_variant me-2 " src="img/product/aaa.jpg" alt="mdo" width="15%">
+            <img class="img_tovar_variant me-2 " src="img/product/das.jpeg" alt="mdo" width="15%">
+        </div>
+        <h5 class="mt-2">Размер</h5>
+        <div class="d-flex">
+            <button class="btn btn-outline pl-2">S</button>
+            <button class="btn btn-outline ml-1">L</button>
+            <button class="btn btn-outline pl-2">X</button>
+            <button class="btn btn-outline ml-1">XL</button>
+        </div>
+        <h5 class="mt-2">Описание</h5>
+        <p>текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст </p>
     </div>
 </div>
 
