@@ -7,8 +7,8 @@ $title = 'Просмотр товара';
 
 <div class="row featurette">
     <div class="col-md-1"></div>
-    <div class="col-md-4 col-sm-12">
-        <img class="img_tovar" src="img/product/asa.jpg" alt="mdo" width="100%">
+    <div class="col-md-3 col-sm-12">
+        <img class="img_tovar_variant" src="img/product/asa.jpg" alt="mdo" width="100%">
     </div>
     <div class="col-md-6 col-sm-12">
         <h2 class="featurette-heading fw-normal lh-1">Zara</h2>
@@ -25,6 +25,9 @@ $title = 'Просмотр товара';
             <button class="btn btn-outline ml-1">L</button>
             <button class="btn btn-outline pl-2">X</button>
             <button class="btn btn-outline ml-1">XL</button>
+        </div>
+        <div>
+            <button class="button_buy" >Добавить в корзину</button>
         </div>
         <h5 class="mt-2">Описание</h5>
         <p>текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст </p>

@@ -9,6 +9,7 @@
     position: relative;
     overflow: hidden;
     width: 100%;
+    /* height: 25rem; */
     cursor: pointer; 
     top: 0;
     left: 0;
@@ -60,6 +61,14 @@
     margin-top: -2%;
 }
 
+/* Просмотр товара */
 
-
+.button_buy{
+    background: black;
+    color: white;
+    padding: 1% 5%;
+}
+.button_buy:hover{
+    opacity: 0.8;
+}
 
