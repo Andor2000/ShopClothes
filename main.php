@@ -5,7 +5,7 @@
     <div class="col-xl-3 col-md-4 col-sm-6 tovar">
         <div class="photo_tovar">
             <a href="product_view.php">
-                <img class="img_tovar" src="img/product/asf.jpeg" alt="mdo" height="100%" width="100%" style="text-align: center;">
+                <img class="img_tovar" src="img/product/asf.jpeg" alt="mdo"  style="text-align: center;">
                 <button class="btn btn-outline-dark photo_tovar_button" href="product_view.php">Быстрый просмотр</button>
             </a>
         </div>
@@ -17,7 +17,7 @@
     </div>
     <div class="col-xl-3 col-md-4 col-sm-6 tovar">
         <div class="photo_tovar">
-            <img class="img_tovar" src="img/product/aaa.jpg" alt="mdo" height="100%" width="100%" style="text-align: center;">
+            <img class="img_tovar" src="img/product/aaa.jpg" alt="mdo" style="text-align: center;">
             <button class="btn btn-outline-dark photo_tovar_button">Быстрый просмотр</button>
         </div>
         <div class="tovar_photo_price">
@@ -28,7 +28,7 @@
     </div>
     <div class="col-xl-3 col-md-4 col-sm-6 tovar">
         <div class="photo_tovar">
-            <img class="img_tovar" src="img/product/asa.jpg" alt="mdo" height="100%" width="100%" style="text-align: center;">
+            <img class="img_tovar" src="img/product/asa.jpg" alt="mdo" style="text-align: center;">
             <button class="btn btn-outline-dark photo_tovar_button">Быстрый просмотр</button>
         </div>
         <div class="tovar_photo_price">
@@ -39,7 +39,7 @@
     </div>
     <div class="col-xl-3 col-md-4 col-sm-6 tovar">
         <div class="photo_tovar">
-            <img class="img_tovar" src="img/product/das.jpeg" alt="mdo" height="100%" width="100%" style="text-align: center;">
+            <img class="img_tovar" src="img/product/das.jpeg" alt="mdo" style="text-align: center;">
             <button class="btn btn-outline-dark photo_tovar_button">Быстрый просмотр</button>
         </div>
         <div class="tovar_photo_price">
@@ -50,7 +50,7 @@
     </div>
     <div class="col-xl-3 col-md-4 col-sm-6 tovar">
         <div class="photo_tovar">
-            <img class="img_tovar" src="img/product/asf.jpeg" alt="mdo" height="100%" width="100%" style="text-align: center;">
+            <img class="img_tovar" src="img/product/asf.jpeg" alt="mdo" style="text-align: center;">
             <button class="btn btn-outline-dark photo_tovar_button">Быстрый просмотр</button>
         </div>
         <div class="tovar_photo_price">
@@ -61,7 +61,7 @@
     </div>
     <div class="col-xl-3 col-md-4 col-sm-6 tovar">
         <div class="photo_tovar">
-            <img class="img_tovar" src="img/product/aaa.jpg" alt="mdo" height="100%" width="100%" style="text-align: center;">
+            <img class="img_tovar" src="img/product/aaa.jpg" alt="mdo" style="text-align: center;">
             <button class="btn btn-outline-dark photo_tovar_button">Быстрый просмотр</button>
         </div>
         <div class="tovar_photo_price">
@@ -72,7 +72,7 @@
     </div>
     <div class="col-xl-3 col-md-4 col-sm-6 tovar">
         <div class="photo_tovar">
-            <img class="img_tovar" src="img/product/asa.jpg" alt="mdo" height="100%" width="100%" style="text-align: center;">
+            <img class="img_tovar" src="img/product/asa.jpg" alt="mdo" style="text-align: center;">
             <button class="btn btn-outline-dark photo_tovar_button">Быстрый просмотр</button>
         </div>
         <div class="tovar_photo_price">
@@ -83,7 +83,7 @@
     </div>
     <div class="col-xl-3 col-md-4 col-sm-6 tovar">
         <div class="photo_tovar">
-            <img class="img_tovar" src="img/product/das.jpeg" alt="mdo" height="100%" width="100%" style="text-align: center;">
+            <img class="img_tovar" src="img/product/das.jpeg" alt="mdo" style="text-align: center;">
             <button class="btn btn-outline-dark photo_tovar_button">Быстрый просмотр</button>
         </div>
         <div class="tovar_photo_price">
