@@ -25,7 +25,7 @@
                         <img src="img/shop/logo.png" alt="mdo" width="128" height="64" class="rounded-circle">
                     </a>
 
-                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <ul class="nav col-12 col-lg-auto mr-lg-auto mb-2 justify-content-center mb-md-0">
                         <li><a href="#" class="nav-link px-4 link-secondary">Джинсы</a></li>
                         <li><a href="#" class="nav-link px-4 link-secondary">Футболки</a></li>
                         <li><a href="#" class="nav-link px-4 link-secondary">Платья</a></li>

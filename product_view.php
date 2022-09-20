@@ -6,7 +6,8 @@ $title = 'Просмотр товара';
 <?php include("header.php"); ?>
 
 <div class="row featurette">
-    <div class="col-md-4 col-sm-12">
+    <div class="col-md-1"></div>
+    <div class="col-md-4 col-sm-12 h-100 photo_buy">
         <div class="photo_tovar_variant">
             <img class="img_tovar_variant" src="img/product/asa.jpg" alt="mdo">
         </div>
@@ -30,7 +31,7 @@ $title = 'Просмотр товара';
         <div>
             <button class="button_buy">Добавить в корзину</button>
         </div>
-        <h5 class="despection mt-2">Описание</h5>
+        <h5 class="mt-2">Описание</h5>
         <p>
             Худи оттенка хаки выполнено из хлопкового петельчатого футера с надписью Smile more. Материал из натурального хлопка позволяет коже дышать и не вызывает раздражение и аллергию.
             <br>
@@ -38,8 +39,102 @@ $title = 'Просмотр товара';
             <br>
             Рекомендуем сочетать худи с комплектными брюками фасона Baggy из женской коллекции, а также со светлыми кроссовками или кедами.
         </p>
+        <ul style="padding-left: 0;">
+            <li>
+                <div class="mr-2">Состав</div>
+                <div></div>
+                <div class="w-50 ml-2">Солома</div>
+            </li>
+            <li>
+                <div class="mr-2">Акции</div>
+                <div></div>
+                <div class="w-50 ml-2">Нет</div>
+            </li>
+            <li>
+                <div class="mr-2">Рекомендации</div>
+                <div></div>
+                <div class="w-50 ml-2">Отсутствуют</div>
+            </li>
+        </ul>
     </div>
 </div>
 
+<div class="mt-5 ml-2">
+    <h3>Похожии товары</h3>
+</div>
 
+<div class="row">
+    <div class="col-xl-2 col-md-2 col-sm-2 tovar">
+        <div class="photo_tovar">
+            <a href="product_view.php">
+                <img class="img_tovar" src="img/product/asf.jpeg" alt="mdo" style="text-align: center;">
+                <button class="btn btn-outline-dark photo_tovar_button" href="product_view.php">Быстрый просмотр</button>
+            </a>
+        </div>
+        <div class="tovar_photo_price">
+            <div class="price">2 299 ₽</div>
+            <div class="firm">Zara</div>
+            <div class="designation">Юбка белая</div>
+        </div>
+    </div>
+    <div class="col-xl-2 col-md-2 col-sm-2 tovar">
+        <div class="photo_tovar">
+            <img class="img_tovar" src="img/product/aaa.jpg" alt="mdo" style="text-align: center;">
+            <button class="btn btn-outline-dark photo_tovar_button">Быстрый просмотр</button>
+        </div>
+        <div class="tovar_photo_price">
+            <div class="price">2 299 ₽</div>
+            <div class="firm">Zara</div>
+            <div class="designation">Юбка белая</div>
+        </div>
+    </div>
+    <div class="col-xl-2 col-md-2 col-sm-2 tovar">
+        <div class="photo_tovar">
+            <a href="product_view.php">
+                <img class="img_tovar" src="img/product/asf.jpeg" alt="mdo" style="text-align: center;">
+                <button class="btn btn-outline-dark photo_tovar_button" href="product_view.php">Быстрый просмотр</button>
+            </a>
+        </div>
+        <div class="tovar_photo_price">
+            <div class="price">2 299 ₽</div>
+            <div class="firm">Zara</div>
+            <div class="designation">Юбка белая</div>
+        </div>
+    </div>
+    <div class="col-xl-2 col-md-2 col-sm-2 tovar">
+        <div class="photo_tovar">
+            <img class="img_tovar" src="img/product/aaa.jpg" alt="mdo" style="text-align: center;">
+            <button class="btn btn-outline-dark photo_tovar_button">Быстрый просмотр</button>
+        </div>
+        <div class="tovar_photo_price">
+            <div class="price">2 299 ₽</div>
+            <div class="firm">Zara</div>
+            <div class="designation">Юбка белая</div>
+        </div>
+    </div>
+    <div class="col-xl-2 col-md-2 col-sm-2 tovar">
+        <div class="photo_tovar">
+            <a href="product_view.php">
+                <img class="img_tovar" src="img/product/asf.jpeg" alt="mdo" style="text-align: center;">
+                <button class="btn btn-outline-dark photo_tovar_button" href="product_view.php">Быстрый просмотр</button>
+            </a>
+        </div>
+        <div class="tovar_photo_price">
+            <div class="price">2 299 ₽</div>
+            <div class="firm">Zara</div>
+            <div class="designation">Юбка белая</div>
+        </div>
+    </div>
+    <div class="col-xl-2 col-md-2 col-sm-2 tovar">
+        <div class="photo_tovar">
+            <img class="img_tovar" src="img/product/aaa.jpg" alt="mdo" style="text-align: center;">
+            <button class="btn btn-outline-dark photo_tovar_button">Быстрый просмотр</button>
+        </div>
+        <div class="tovar_photo_price">
+            <div class="price">2 299 ₽</div>
+            <div class="firm">Zara</div>
+            <div class="designation">Юбка белая</div>
+        </div>
+    </div>
+</div>
 <?php include("footer.php"); ?>
