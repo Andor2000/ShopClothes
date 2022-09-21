@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
         body {
-            background: url('img/shop/fon.jpg') center no-repeat fixed;
+            /* background-color: #f6fbee; */
+            /* background: url('img/shop/fon.jpg') center no-repeat fixed; */
             background-size: cover;
         }
     </style>
