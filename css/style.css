@@ -54,7 +54,8 @@
 
 .price {
     font-weight: bold;
-    font-size: 120%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .firm {
@@ -72,9 +73,10 @@
 /*//////////////*/
 
 .button_buy {
-    background: black;
+    background: rgb(59, 59, 59);
     color: white;
     padding: 1% 5%;
+    border:none;
 }
 
 .button_buy:hover {
@@ -135,7 +137,7 @@ li div:nth-child(2) {
     float: right;
     width: 25px;
     padding: 0;
-    cursor: pointer;
+    /* cursor: pointer; */
     font-size: 25px;
     line-height: 16px;
     color: lightgrey;
@@ -153,7 +155,8 @@ li div:nth-child(2) {
 
 .rating-area:not(:checked)>label:hover,
 .rating-area:not(:checked)>label:hover~label {
-    color: gold;
+    /* color: gold;  */
+    /* При наведении звезда */
 }
 
 .rating-area>input:checked+label:hover,
@@ -162,7 +165,8 @@ li div:nth-child(2) {
 .rating-area>input:checked~label:hover~label,
 .rating-area>label:hover~input:checked~label {
     color: gold;
-    text-shadow: 1px 1px goldenrod;
+    /* text-shadow: 1px 1px goldenrod; */
+     /* при наведении тень */
 }
 
 .rate-area>label:active {
