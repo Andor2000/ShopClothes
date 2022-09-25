@@ -1,5 +1,26 @@
-/* Работа с товаром */
+/*  */
+/* Шапка */
+/*  */
+.navbar_user {
+    align-items: none !important;
 
+}
+
+.container-fluid {
+    align-items: none;
+}
+
+/*  */
+/* Слайдер */
+/*  */
+.my_slider {
+    height: 200px;
+    object-fit: cover;
+}
+
+/*  */
+/* Работа с товаром */
+/*  */
 .tovar {
     padding-left: 2%;
     padding-right: 2%;
@@ -76,7 +97,7 @@
     background: rgb(59, 59, 59);
     color: white;
     padding: 1% 5%;
-    border:none;
+    border: none;
 }
 
 .button_buy:hover {
@@ -166,20 +187,46 @@ li div:nth-child(2) {
 .rating-area>label:hover~input:checked~label {
     color: gold;
     /* text-shadow: 1px 1px goldenrod; */
-     /* при наведении тень */
+    /* при наведении тень */
 }
 
 .rate-area>label:active {
     position: relative;
 }
 
-@media (min-width:768px) {
+/*  */
+/* КОРЗИНА */
+/*  */
+.trash {
+    width: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+}
 
-    /* фотография при покупке */
-    .photo_buy {
-        position: fixed;
-        top: 0;
-    }
+.trash:hover {
+    opacity: 1;
+}
+
+.btn_count_tovar {
+    font-weight: bold;
+    background: #ffffff;
+    color: black;
+    opacity: 0.5;
+    border-radius: 50%;
+    height: 80%;
+}
+
+.btn_count_tovar:hover {
+    opacity: 1;
+}
+
+/* оформление заказа */
+.details_order {
+    border: 1px rgb(201, 201, 201) solid;
+    background: #ffffff;
+    border-radius: 20px;
+    position: sticky;
+    bottom: 0;
 }
 
 @media (min-width:768px) {
@@ -188,5 +235,22 @@ li div:nth-child(2) {
     .photo_buy {
         position: sticky;
         top: 10%;
+    }
+
+    .details_order {
+        top: 2em;
+    }
+
+    .btn_count_tovar {
+        border: none;
+    }
+
+    .navbar_logo_razdel,
+    .navbar_name_razdel {
+        display: flex;
+    }
+
+    .my_slider {
+        height: 400px;
     }
 }

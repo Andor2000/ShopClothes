@@ -12,3 +12,11 @@ function change_photo_variant(src, number) {
     document.getElementById('id_photo_tovar').src = src;
 
 }
+
+function add_count_tovar(data) {
+    var price = Number.prototype.toFixed.call(parseFloat(data) || 0, 2),
+        //заменяем точку на запятую
+        price_sep = price.replace(/(\D)/g, ","),
+        //добавляем пробел как разделитель в целых
+        price_sep = price_sep.replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1 ");
+}

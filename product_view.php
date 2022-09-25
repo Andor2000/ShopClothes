@@ -1,15 +1,14 @@
 <?php
 session_start();
 $title = 'Просмотр товара';
+include("header.php");
 ?>
-
-<?php include("header.php"); ?>
 
 <div class="row featurette">
     <div class="col-md-1"></div>
     <div class="col-md-4 col-sm-12 h-100 photo_buy">
-        <div class="photo_tovar_var2iant" style="position: relative; overflow: hidden; width: 100%; cursor: pointer; padding: 0 0 100% 0; min-height:500px;">
-            <img src="img/product/asa.jpg" id="id_photo_tovar" class="img_tovar_var2iant" style="width: 100%; height:100%; object-fit: cover; position: absolute;" alt="mdo">
+        <div  style="position: relative; overflow: hidden; width: 100%; cursor: pointer; padding: 0 0 100% 0; min-height:500px;">
+            <img src="img/product/asa.jpg" id="id_photo_tovar"  style="width: 100%; height:100%; object-fit: cover; position: absolute;" alt="mdo">
         </div>
     </div>
     <div class="col-md-6 col-sm-12">
